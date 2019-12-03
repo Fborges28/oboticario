@@ -1,0 +1,43 @@
+.main-header {
+  background-color: $green;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  >.container,
+  .main-header__menu,
+  .main-header__menu ul,
+  .main-header__menu ul li,
+  .main-header__menu ul li a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  >.container {
+    justify-content: space-between;
+  }
+
+  .main-header__menu {
+    ul {
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+
+      li {
+        a {
+          color: white;
+          padding: 20px;
+
+          &.active {
+            background-color: $mediumgreen;
+            border-bottom: 3px solid $darkgreen;
+          }
+        }
+      }
+    }
+  }
+}

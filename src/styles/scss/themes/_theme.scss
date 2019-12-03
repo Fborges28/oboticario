@@ -1,0 +1,16 @@
+.btn-primary {
+  background-color: $green;
+  border: none;
+
+  &:hover {
+    background-color: $darkgreen;
+  }
+}
+
+a {
+  color: $green;
+
+  &:hover {
+    color: $darkgreen;
+  }
+}

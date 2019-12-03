@@ -1,0 +1,20 @@
+.form {
+  background-color: $lightgray;
+  padding: 40px;
+  max-width: 500px;
+  margin: 0px auto;
+  color: $darkgray;
+
+  .form__title {
+    margin-bottom: 40px;
+  }
+
+  .form__submit {
+    margin-top: 40px;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 15px;
+  }
+}

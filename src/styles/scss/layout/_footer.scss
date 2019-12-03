@@ -1,0 +1,17 @@
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  background: #038c84;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  color: #fff;
+
+  a {
+    color: #fff;
+  }
+}

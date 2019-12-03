@@ -1,0 +1,186 @@
+/*@import
+  'vendors/bootstrap',
+  'vendors/jquery-ui';*/
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: Effra;
+  src: url("../../assets/fonts/effra_std_bd-webfont.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Effra;
+  src: url("../../assets/fonts/effra-medium-webfont.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Effra;
+  src: url("../../assets/fonts/effra_std_rg-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: DomaineSans;
+  src: url("../../assets/fonts/DomaineSansDisplay-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: DomaineSans;
+  src: url("../../assets/fonts/DomaineSansText-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: DomaineSans;
+  src: url("../../assets/fonts/DomaineSansText-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: DomaineSans;
+  src: url("../../assets/fonts/DomaineSansText-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: bold;
+}
+body {
+  font-family: Effra, "sans-serif";
+  padding: 130px 0px 80px 0px;
+}
+
+.block-margin {
+  margin: 40px 0px;
+}
+
+input,
+button,
+.form-control {
+  padding: 10px;
+  min-height: 50px;
+  display: inline-block;
+}
+
+.btn {
+  padding: 11px;
+}
+
+.jumbotron {
+  padding: 40px;
+}
+
+.main-header {
+  background-color: #038C84;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.main-header > .container,
+.main-header .main-header__menu,
+.main-header .main-header__menu ul,
+.main-header .main-header__menu ul li,
+.main-header .main-header__menu ul li a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main-header > .container {
+  justify-content: space-between;
+}
+.main-header .main-header__menu ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.main-header .main-header__menu ul li a {
+  color: white;
+  padding: 20px;
+}
+.main-header .main-header__menu ul li a.active {
+  background-color: #026C66;
+  border-bottom: 3px solid #003733;
+}
+
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  background: #038c84;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  color: #fff;
+}
+.main-footer a {
+  color: #fff;
+}
+
+.form {
+  background-color: #F0F0F0;
+  padding: 40px;
+  max-width: 500px;
+  margin: 0px auto;
+  color: #838585;
+}
+.form .form__title {
+  margin-bottom: 40px;
+}
+.form .form__submit {
+  margin-top: 40px;
+}
+.form a {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.home .home__content {
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home .home__content h1 {
+  margin-bottom: 20px;
+}
+.home .home__content button span {
+  font-size: 25px;
+  font-weight: 600;
+  display: block;
+}
+
+.cadastro-de-compras .form {
+  max-width: initial;
+}
+
+.btn-primary {
+  background-color: #038C84;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #003733;
+}
+
+a {
+  color: #038C84;
+}
+a:hover {
+  color: #003733;
+}
+
+/*# sourceMappingURL=main.css.map */

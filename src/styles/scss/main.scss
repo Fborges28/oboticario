@@ -1,0 +1,31 @@
+//VARIABLES SHARED BETWEEN FILES
+@import 'abstracts/variables',
+'abstracts/mixins';
+
+//LIBRARIES
+/*@import
+  'vendors/bootstrap',
+  'vendors/jquery-ui';*/
+
+//LIBRARIES OVERRIDES
+//@import 'vendors-extensions/bootstrap';
+
+//BASE STYLES
+@import 'base/reset',
+'base/typography',
+'base/general';
+
+//STRUCTURE
+@import 'layout/header',
+'layout/footer',
+'layout/forms';
+
+//COMPONENTS
+@import 'components/loginform';
+
+//PAGES
+@import 'pages/home';
+@import 'pages/cadastrodecompras';
+
+//THEMES
+@import 'themes/theme';

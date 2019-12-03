@@ -1,0 +1,21 @@
+.home {
+  .home__content {
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    button {
+      span {
+        font-size: 25px;
+        font-weight: 600;
+        display: block;
+      }
+    }
+  }
+}
